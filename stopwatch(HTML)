@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>STOPWATCH</title>
+        <link rel="stylesheet" href="stopwatch.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="display">00:00:00</h1>
+            <button onclick="start()">start</button>
+            <button onclick="stop()">stop</button>
+            <button onclick="reset()">reset</button>
+            <script src="stopwatch.js"></script>
+        </div>
+    </body>
+</html>
